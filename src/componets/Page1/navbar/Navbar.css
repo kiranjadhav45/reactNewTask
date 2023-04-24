@@ -1,0 +1,75 @@
+.Navbar {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: PP Cirka;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: PP Cirka;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.logo span {
+  color: #6f57e9;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+}
+
+.logInBtn button {
+  border: none;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12.4444px 19.5556px;
+  gap: 8.89px;
+
+  width: 150.22px;
+  height: 48px;
+
+  background: #6f57e9;
+  border-radius: 12.4444px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.learnMoreButton button {
+  border: none;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12.4444px 19.5556px;
+  gap: 8.89px;
+
+  width: 150.22px;
+  height: 48px;
+
+  border-radius: 12.4444px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: 2px solid #6f57e9;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;600&display=swap");
+
+.actions {
+  color: #868686;
+  font-family: "Figtree";
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1287px;
+  height: 82px;
+  left: 76px;
+  top: 404px;
+
+  background: #ffffff;
+  box-shadow: 296px 536px 245px rgba(21, 31, 72, 0.01),
+    167px 302px 207px rgba(21, 31, 72, 0.05),
+    74px 134px 153px rgba(21, 31, 72, 0.09),
+    19px 34px 84px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+}
+
+.origin {
+  /* Title03 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #868686;
+}
+.actionbtn {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 1235px;
+  top: 23px;
+
+  background: #9747ff;
+  border-radius: 8px;
+}
