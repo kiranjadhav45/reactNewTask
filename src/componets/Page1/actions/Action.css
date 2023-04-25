@@ -5,6 +5,7 @@
   font-family: "Figtree";
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: absolute;
   width: 1287px;
   height: 82px;
@@ -32,12 +33,13 @@
   color: #868686;
 }
 .actionbtn {
+  color: #ffffff;
   position: absolute;
   width: 36px;
   height: 36px;
   left: 1235px;
   top: 23px;
-
+  border: none;
   background: #9747ff;
   border-radius: 8px;
 }

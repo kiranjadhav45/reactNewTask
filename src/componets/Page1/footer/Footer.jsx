@@ -1,7 +1,16 @@
 import "./Footer.css";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <div className="footer">
+      <img
+        className="footerImage"
+        src="https://i.ibb.co/0DgXHQ0/Start.png"
+        alt="Start"
+        border="0"
+      />
+    </div>
+  );
 };
 
 export default Footer;
