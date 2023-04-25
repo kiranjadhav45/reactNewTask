@@ -1,16 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap");
 
+/* Price section */
 .priceAndBooking {
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
   gap: 93px;
+  margin-bottom: 200px;
 }
-.bookingSummary {
-  flex: 2.5;
-  background-color: aqua;
-}
+
 .priceDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto;
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
   flex: 1;
 }
 .priceTitle {
@@ -36,7 +43,7 @@
   margin-left: 107px;
 }
 .priceDtsUnderline {
-  margin: 20px 0px;
+  margin: 20px 26px;
   /* position: absolute; */
   width: 272px;
   height: 0px;
@@ -46,7 +53,7 @@
   border: 1px solid rgba(179, 179, 179, 0.5);
 }
 .DutiesAndTaxes {
-  margin-top: 26px;
+  /* margin-top: 26px; */
   color: #808080;
   font-size: 16px;
 }
@@ -84,7 +91,7 @@
   text-decoration: underline;
 }
 .Platformfee {
-  margin-top: 15px;
+  /* margin-top: 15px; */
   color: #808080;
   font-size: 16px;
 }
@@ -109,7 +116,8 @@
   margin-left: 80px;
 }
 .cheackoutBtn {
-  margin-top: 76px;
+  margin-top: 66px;
+  margin-bottom: 32px;
 }
 .cheackoutBtn button {
   padding: 10px;
@@ -122,4 +130,244 @@
   font-weight: 700;
   font-size: 23px;
   color: #ffffff;
+}
+
+/* Booking summary section */
+.bookingSummary {
+  flex: 2.5;
+}
+.bookingSumm {
+  width: 907px;
+  height: 170px;
+
+  background: #ffffff;
+  /* Cards shadow */
+
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+
+  /* Inside auto layout */
+}
+.bookingTitle {
+  margin-top: 30px;
+  margin-left: 26px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+
+  color: #000000;
+}
+.express {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.express div {
+  font-size: 13px;
+  font-weight: 600;
+}
+.DelhiShanghai {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.DelhiShanghaiLine {
+  width: 633px;
+  height: 0px;
+  border: 1.5px solid #000000;
+}
+
+.destination {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  justify-content: space-between;
+  display: flex;
+  /* margin-left: 80px;
+  margin-right: 50px; */
+  margin: 0px 60px;
+  margin-top: 20px;
+}
+.delhi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shanghai {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weightAndLoad {
+  display: flex;
+  margin-top: 10px;
+}
+.weightBooking {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  /* justify-content: space-between; */
+  gap: 15px;
+  align-items: center;
+
+  width: 232px;
+  /* height: 165px; */
+
+  background: #ffffff;
+  /* Cards shadow */
+
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+}
+.loadBookig {
+  padding-bottom: 6px;
+  padding-top: 12px;
+  margin-left: 10px;
+  flex: 2.86;
+  width: 664px;
+  height: 165px;
+  background: #ffffff;
+  /* Cards shadow */
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+}
+.titleweight {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  color: #5c5c5c;
+}
+.weightValue {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 120%;
+
+  color: #000000;
+}
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+}
+.LoadimageDesc {
+  display: flex;
+  justify-content: center;
+}
+.loadTitle {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  margin-top: 8px;
+  margin-left: 26px;
+  color: #5c5c5c;
+}
+.bookingScale {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+
+  text-align: center;
+
+  color: #000000;
+}
+.LoadimageDesc {
+  display: flex;
+  margin-left: 65px;
+  margin-top: 6px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+
+  color: #000000;
+}
+.imageTitle {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 8px;
+
+  color: #000000;
+}
+
+/* last Row start */
+
+.LastRow {
+  display: flex;
+  margin-top: 10px;
+}
+.SellerPrimetimeWorldwide {
+  flex: 1;
+  width: 443px;
+  height: 187px;
+  margin-right: 21px;
+  background: #ffffff;
+
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+}
+.InsuranceLastRow {
+  flex: 1;
+  width: 443px;
+  height: 187px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+}
+.TitlePrimetimeWorldwide {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 120%;
+  color: #5c5c5c;
+  margin-top: 28px;
+  margin-left: 26px;
+}
+.ImagePrimetimeWorldwide {
+  display: flex;
+  margin-top: 38px;
+  justify-content: center;
+}
+
+.TitleInsuranceLastRow {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 120%;
+  color: #5c5c5c;
+  margin-top: 28px;
+  margin-left: 26px;
+}
+.ImageInsuranceLastRow {
+  display: flex;
+  margin-top: 38px;
+  justify-content: center;
 }
