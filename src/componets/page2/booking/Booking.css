@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap");
+
+.priceAndBooking {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 93px;
+}
+.bookingSummary {
+  flex: 2.5;
+  background-color: aqua;
+}
+.priceDetails {
+  flex: 1;
+}
+.priceTitle {
+  font-weight: 700;
+  font-size: 23px;
+}
+.priceBtn {
+  padding: 9.02891px;
+  gap: 9.03px;
+
+  width: 104.82px;
+
+  background: #e5e6e6;
+  border-radius: 23px;
+  margin-left: 21px;
+}
+
+.sellerQuota {
+  color: #808080;
+  margin-top: 41px;
+}
+.sellerQuotaSpan {
+  margin-left: 107px;
+}
+.priceDtsUnderline {
+  margin: 20px 0px;
+  /* position: absolute; */
+  width: 272px;
+  height: 0px;
+  /* left: 39px;
+  top: 144px; */
+
+  border: 1px solid rgba(179, 179, 179, 0.5);
+}
+.DutiesAndTaxes {
+  margin-top: 26px;
+  color: #808080;
+  font-size: 16px;
+}
+.DutiesAndTaxesSpan {
+  margin-left: 63px;
+}
+
+.Insurance {
+  margin-top: 15px;
+  color: #808080;
+  font-size: 16px;
+}
+.InsuranceSpan {
+  margin-left: 147px;
+}
+.BasedOncost {
+  font-size: 13px;
+  color: #808080;
+}
+
+.BasedOncostUnderLine {
+  margin-top: 26px;
+  margin-bottom: 27px;
+  width: 272px;
+  height: 0px;
+
+  border: 1px solid rgba(179, 179, 179, 0.5);
+}
+.promoCode {
+  color: #808080;
+  font-size: 16px;
+}
+.promoCode span {
+  color: #6f57e9;
+  text-decoration: underline;
+}
+.Platformfee {
+  margin-top: 15px;
+  color: #808080;
+  font-size: 16px;
+}
+.PlatformfeeSpan {
+  margin-left: 132px;
+}
+.PlatformfeeUnderline {
+  margin-top: 24px;
+  margin-bottom: 26px;
+  width: 272px;
+  height: 0px;
+
+  border: 1px solid rgba(179, 179, 179, 0.5);
+}
+
+.totalPrice {
+  font-weight: 700;
+  font-size: 28px;
+  color: #000000;
+}
+.totalPriceSpan {
+  margin-left: 80px;
+}
+.cheackoutBtn {
+  margin-top: 76px;
+}
+.cheackoutBtn button {
+  padding: 10px;
+  gap: 10px;
+  border: none;
+  width: 276px;
+  height: 48px;
+  background: #9747ff;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 23px;
+  color: #ffffff;
+}
