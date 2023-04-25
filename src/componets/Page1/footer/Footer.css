@@ -1,6 +1,7 @@
 .footerImage {
   position: absolute;
   width: 1633px;
+  /* width: 100%; */
   height: 890px;
   left: -181px;
 
