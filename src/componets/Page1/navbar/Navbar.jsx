@@ -4,7 +4,13 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="logo">
-        <img src="https://i.ibb.co/SskN8SR/Logo.png" alt="Logo" border="0" />
+        <img
+          width={170}
+          height={39}
+          src="https://i.ibb.co/ZWVvGqP/Logo.png"
+          alt="Logo"
+          border="0"
+        />
         {/* Ship<span>mate.</span> */}
       </div>
       <div className="buttons">

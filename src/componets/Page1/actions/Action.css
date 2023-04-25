@@ -22,12 +22,14 @@
 
 .origin {
   /* Title03 Semi bold */
-
+  display: flex;
+  align-items: center;
   font-family: "Figtree";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 120%;
+  gap: 9px;
   /* or 19px */
 
   color: #868686;
@@ -42,4 +44,22 @@
   border: none;
   background: #9747ff;
   border-radius: 8px;
+}
+.destination {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.date {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.load {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.actionImage {
+  z-index: 2;
 }

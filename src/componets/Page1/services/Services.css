@@ -35,6 +35,9 @@
   gap: 17px;
 }
 .servicestitle {
+  display: flex;
+  align-items: center;
+  gap: 30px;
   /* width: 146px; */
   height: 26px;
 

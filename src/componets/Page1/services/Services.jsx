@@ -6,7 +6,16 @@ const Services = () => {
       <div className="serviceHeading">Services</div>
       <div className="serviceCards">
         <div className="FreightServices cards">
-          <div className="servicestitle">Freight Services</div>
+          <div className="servicestitle">
+            <img
+              height={32}
+              width={32}
+              src="https://i.ibb.co/99vg1JS/ship-blue.png"
+              alt="ship-blue"
+              border="0"
+            />{" "}
+            Freight Services
+          </div>
           <hr className="underLine" />
           <div className="servicesdescription">
             Open new Opportunites to grow your busniess. Enter new markets and
