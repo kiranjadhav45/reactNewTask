@@ -1,6 +1,11 @@
 import "./Booking.css";
+import { useNavigate } from "react-router-dom";
 
 const Booking = () => {
+  const navigate = useNavigate();
+  const handleOnCheckout = () => {
+    navigate("/4");
+  };
   return (
     <div className="priceAndBooking">
       <div className="bookingSummary">
@@ -159,7 +164,7 @@ const Booking = () => {
           <span className="totalPriceSpan">$ 4,102.13</span>
         </div>
         <div className="cheackoutBtn">
-          <button>Checkout</button>
+          <button onClick={handleOnCheckout}>Checkout</button>
         </div>
       </div>
     </div>

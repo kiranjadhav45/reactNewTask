@@ -1,6 +1,11 @@
 import "./Action.css";
-
+import { useNavigate } from "react-router-dom";
 const Action = () => {
+  const navigate = useNavigate();
+  const handleOnSearch = () => {
+    console.log("first");
+    navigate("/3");
+  };
   return (
     <div className="actions">
       <div className="origin">
@@ -47,7 +52,7 @@ const Action = () => {
         Load
       </div>
       <div className="actionB">
-        <button className="actionbtn">
+        <button className="actionbtn" onClick={handleOnSearch}>
           <img
             width={16}
             height={12}

@@ -35,8 +35,9 @@
   color: #868686;
 }
 .actionbtn {
+  cursor: pointer;
   color: #ffffff;
-  position: absolute;
+  /* position: absolute; */
   width: 36px;
   height: 36px;
   left: 1235px;

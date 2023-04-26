@@ -8,7 +8,7 @@
 .filter {
   flex: 1;
   position: relative;
-  top: 250px;
+  top: 125px;
 }
 .transaction {
   flex: 3;

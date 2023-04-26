@@ -44,6 +44,10 @@
   font-size: 13px;
   line-height: 120%;
   color: #868686;
+  margin-right: 20px;
+}
+.transaction {
+  margin-bottom: 100px;
 }
 .transaction1 {
   box-sizing: border-box;

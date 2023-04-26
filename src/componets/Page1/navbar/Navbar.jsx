@@ -1,6 +1,11 @@
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ type }) => {
+  const navigate = useNavigate();
+  const handleOnLogIn = () => {
+    navigate("/2");
+  };
   return (
     <div className="Navbar">
       <div className="logo">
@@ -14,9 +19,11 @@ const Navbar = () => {
         {/* Ship<span>mate.</span> */}
       </div>
       <div className="buttons">
-        <div className="logInBtn">
-          <button>Login</button>
-        </div>
+        {!type && (
+          <div className="logInBtn">
+            <button onClick={handleOnLogIn}>Login</button>
+          </div>
+        )}
         <div className="learnMoreButton">
           <button>Learn more</button>
         </div>

@@ -1,0 +1,35 @@
+.filter {
+  margin: 0px auto;
+  width: 256px;
+}
+.filterTitle {
+  margin-bottom: 39px;
+}
+.filterTitle1 {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+}
+.filterTitle2 {
+  font-family: "Figtree";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+}
+.filterItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.filterText {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+}

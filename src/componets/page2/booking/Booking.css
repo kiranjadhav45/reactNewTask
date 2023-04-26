@@ -120,6 +120,7 @@
   margin-bottom: 32px;
 }
 .cheackoutBtn button {
+  cursor: pointer;
   padding: 10px;
   gap: 10px;
   border: none;
