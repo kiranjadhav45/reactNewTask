@@ -10,7 +10,7 @@ const Page3 = () => {
       <Logo />
       <Progress />
       <Booking />
-      <Price />
+      {/* <Price /> */}
     </div>
   );
 };

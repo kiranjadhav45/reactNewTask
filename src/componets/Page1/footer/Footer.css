@@ -14,7 +14,7 @@
   z-index: 1;
 }
 
-.ellipse {
+.ellipsesas {
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -24,7 +24,7 @@
   background: linear-gradient(180deg, #9747ff 0%, #7c62ff 100%);
   border-radius: 50%;
   position: absolute;
-  left: 1309px;
-  top: 920px;
+  top: 900px;
   z-index: 2;
+  right: 70px;
 }
