@@ -1,0 +1,299 @@
+.selectBar {
+  width: 688px;
+  height: 42px;
+
+  background: #ebe8ff;
+  box-shadow: 14px 216px 86px rgba(21, 31, 72, 0.01),
+    8px 121px 73px rgba(21, 31, 72, 0.05), 3px 54px 54px rgba(21, 31, 72, 0.09),
+    1px 13px 30px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+}
+.selectBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.selectBar1 {
+  left: 56px;
+  top: 13px;
+
+  font-size: 13px;
+
+  color: #9747ff;
+
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background: #ffffff;
+  box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+}
+.selectBar2 {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 120%;
+  color: #868686;
+}
+.selectBar3 {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 120%;
+  color: #868686;
+}
+.transaction1 {
+  box-sizing: border-box;
+  margin-bottom: 18px;
+  width: 791px;
+  /* height: 144px; */
+
+  background: #ffffff;
+  border: 1px solid rgba(218, 218, 218, 0.4);
+  box-shadow: 39px 216px 88px rgba(0, 0, 0, 0.01),
+    22px 122px 74px rgba(0, 0, 0, 0.05), 10px 54px 55px rgba(0, 0, 0, 0.09),
+    2px 14px 30px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.allTreansactions {
+  margin-top: 40px;
+}
+.secondDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.transactionAmount {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+}
+.transactionButton button {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  padding: 10px 34px;
+  /* gap: 10px; */
+  border: none;
+  /* width: 101px;
+  height: 39px; */
+  background: #6f57e9;
+  border-radius: 14px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-top: 14px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+.transactionDetails {
+  width: 60px;
+  height: 13px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 120%;
+  /* or 13px */
+  text-align: center;
+  text-decoration-line: underline;
+  color: #363636;
+  cursor: pointer;
+}
+.firstRow {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+.bestValueBTn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  margin-right: 24px;
+  margin-left: 29px;
+
+  background: #afffad;
+  border-radius: 12px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.bestValueBTn div {
+  height: 9px;
+  width: 9px;
+  background-color: #05ff00;
+  border-radius: 50%;
+}
+.bestValueBTn span {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+}
+.ExpressSpan {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  text-align: center;
+  color: #ff0000;
+}
+.verticalLineSpan {
+  color: rgba(177, 177, 177, 0.6);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.EstDaysSpan {
+  font-size: 11px;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+
+  color: #565656;
+}
+lineInTransaction {
+  display: flex;
+  align-items: center;
+}
+.lineInTransaction hr {
+  width: 24px;
+  height: 0px;
+  border: 1px solid #565656;
+}
+.SecondRow {
+  display: flex;
+  margin-top: 20.5px;
+  margin-left: 18px;
+
+  align-items: center;
+}
+.firstLocation {
+  display: flex;
+  align-items: center;
+  gap: 5.39px;
+}
+.firstLocation span {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  margin-right: 7px;
+  color: #565656;
+}
+.secondLocation {
+  display: flex;
+  align-items: center;
+  gap: 5.39px;
+}
+.secondLocation span {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+
+  color: #565656;
+}
+
+.thirdRow {
+  display: flex;
+  align-items: center;
+  margin-top: 25.5px;
+  margin-bottom: 18px;
+}
+.transactionShip img {
+  margin-left: 29px;
+  margin-right: 6px;
+}
+.transactionRating img {
+  margin-left: 14px;
+}
+.transaction2 {
+  margin-top: 18px;
+  box-sizing: border-box;
+
+  width: 791px;
+  height: 144px;
+
+  background: #ffffff;
+  border: 1px solid rgba(218, 218, 218, 0.4);
+  box-shadow: 39px 216px 88px rgba(0, 0, 0, 0.01),
+    22px 122px 74px rgba(0, 0, 0, 0.05), 10px 54px 55px rgba(0, 0, 0, 0.09),
+    2px 14px 30px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+}
+.transaction3 {
+  margin-top: 18px;
+  box-sizing: border-box;
+
+  width: 791px;
+  height: 144px;
+
+  background: #ffffff;
+  border: 1px solid rgba(218, 218, 218, 0.4);
+  box-shadow: 39px 216px 88px rgba(0, 0, 0, 0.01),
+    22px 122px 74px rgba(0, 0, 0, 0.05), 10px 54px 55px rgba(0, 0, 0, 0.09),
+    2px 14px 30px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+}
+.SecondRow img {
+  margin-left: 9px;
+}
+
+.bestValueBTnpurple {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 26px;
+  gap: 10px;
+  margin-right: 24px;
+  margin-left: 29px;
+
+  background: #adbfff;
+  border-radius: 12px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.bestValueBTnpurple div {
+  height: 9px;
+  width: 9px;
+  background-color: #446dff;
+  border-radius: 50%;
+}
+.bestValueBTnpurple span {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+}

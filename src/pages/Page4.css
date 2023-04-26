@@ -1,0 +1,17 @@
+.page4 {
+  margin-top: 37px;
+}
+.FilterPlusRow {
+  display: flex;
+  justify-content: center;
+}
+.filter {
+  flex: 1;
+  position: relative;
+  top: 250px;
+}
+.transaction {
+  flex: 3;
+  position: relative;
+  top: 125px;
+}

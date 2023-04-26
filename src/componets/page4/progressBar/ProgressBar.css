@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap");
+.progreeBar4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progressBar {
+  /* position: absolute; */
+  /* top: 182px; */
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-between;
+  width: 715px;
+  align-items: center;
+  margin-top: 106px;
+}
+
+.circles {
+  font-weight: 700;
+  font-family: "Figtree";
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 39px;
+  height: 39px;
+  background-color: #d3b0ff;
+  border-radius: 50%;
+}
+.progressLine {
+  width: 231px;
+  height: 0px;
+  border: 2px solid #d3b0ff;
+}
+.progressText {
+  font-size: 13px;
+}
+.circleandText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.loadProgress {
+  position: relative;
+  top: 50px;
+  left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.loadProgress span {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #868686;
+}
+.circlesBalck {
+  font-weight: 700;
+  font-family: "Figtree";
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 39px;
+  height: 39px;
+  background-color: #868686;
+  border-radius: 50%;
+}
+.progressTextGreay {
+  font-size: 13px;
+  color: #868686;
+}
