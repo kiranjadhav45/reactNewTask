@@ -6,36 +6,23 @@
   justify-content: center;
 }
 .title {
-  position: absolute;
-  width: 595px;
-  height: 50px;
-  left: 422.5px;
-  top: 188px;
-
+  margin-top: 115px;
   font-family: "Figtree";
   font-style: normal;
   font-weight: 600;
   font-size: 42px;
   line-height: 50px;
   text-align: center;
-
   color: #000000;
 }
 
 .paragrapgh {
-  position: absolute;
-  width: 1016px;
-  height: 26px;
-  left: 212px;
-  right: 212px;
-  top: 246px;
-
+  margin-top: 8px;
   font-family: "Figtree";
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
-
   color: #000000;
 }

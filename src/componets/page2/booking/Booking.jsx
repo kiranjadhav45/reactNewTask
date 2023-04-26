@@ -167,6 +167,15 @@ const Booking = () => {
           <button onClick={handleOnCheckout}>Checkout</button>
         </div>
       </div>
+      <div className="ellipse">
+        <img
+          width={31.25}
+          height={31.25}
+          src="https://i.ibb.co/X2LkmcT/message2.png"
+          alt="message2"
+          border="0"
+        />
+      </div>
     </div>
   );
 };

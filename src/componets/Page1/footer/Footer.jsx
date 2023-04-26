@@ -21,12 +21,14 @@ const Footer = () => {
           border="0"
         />
       </div>
-      <img
-        className="footerImage"
-        src="https://i.ibb.co/0DgXHQ0/Start.png"
-        alt="Start"
-        border="0"
-      />
+      <div className="footerImage">
+        <img
+          height={160}
+          src="https://i.ibb.co/ch8WqnK/Water-waves-1-1.png"
+          alt="Water-waves-1-1"
+          border="0"
+        />
+      </div>
     </div>
   );
 };

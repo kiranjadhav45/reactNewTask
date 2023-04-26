@@ -3,35 +3,19 @@
 .serviceHeading {
   display: flex;
   justify-content: center;
-
-  position: absolute;
-  left: 655.5px;
-
-  top: 584px;
-  /* Heading03 Semi bold */
-
+  margin-top: 78px;
   font-family: "Figtree";
   font-style: normal;
   font-weight: 600;
   font-size: 33px;
   line-height: 120%;
-  /* identical to box height, or 40px */
-
   text-align: center;
-
   color: #000000;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .serviceCards {
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  top: 695px;
   gap: 17px;
 }
 .servicestitle {

@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;600&display=swap");
 
 .actions {
+  margin: 0px auto;
+  margin-top: 132px;
   color: #868686;
   font-family: "Figtree";
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+
   width: 1287px;
   height: 82px;
-  left: 76px;
-  top: 404px;
 
   background: #ffffff;
   box-shadow: 296px 536px 245px rgba(21, 31, 72, 0.01),
@@ -34,10 +34,9 @@
 
   color: #868686;
 }
-.actionbtn {
+.actionbtn123 {
   cursor: pointer;
   color: #ffffff;
-  /* position: absolute; */
   width: 36px;
   height: 36px;
   left: 1235px;

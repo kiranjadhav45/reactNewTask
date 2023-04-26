@@ -372,3 +372,17 @@
   margin-top: 38px;
   justify-content: center;
 }
+.ellipse {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 75px;
+  background: linear-gradient(180deg, #9747ff 0%, #7c62ff 100%);
+  border-radius: 50%;
+  position: absolute;
+  right: 56px;
+  top: 800px;
+  z-index: 2;
+}
